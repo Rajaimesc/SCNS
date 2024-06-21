@@ -41,3 +41,16 @@ The structure of the code then takes the instances of the CRT and the PMT system
 (the whole event) level. After this, the instance of the TPC track is called and a map is declared in which for each TPC track a pair of CRT,PMT signals is coupled and tested in terms of the closeness of the
 TPC-PMT coordinates and the closennes of the projected track with the CRT that should correspond to the track by means of the common time of the detectors given by the flash.
 
+The compilation of the code  takes a list of flatCAF icarus data files, performs the spectrum analysis (CAFANA is designed to perform a reading and storage of the variables of interest after cuts and conditionals and store the refined variable in an objcet called spectrum), and saved the other variables not casted into a spectrum into a root file using a txt file as an intermediate step. The choice of the txt instead of directly the root file is done because as CAFANA iterates over events,so creating new trees without declaring the root file messes up with the memory and gets segmentation fault. The resultant root file with the variables of interest is also uploaded.
+
+The spectrum  takes the distance between the light and charge barycenters inside the TPC and the distance of  the projected CRT hit with respect to the measured CRT for the triples formed. The result is shown below:
+
+<center>
+<img src="Distances2d.png" width="500" class="center"/>
+</center>
+From this plot we can see that the shorter the distance between the barycenters the more precise is also the projection on the CRT plane, indicating that the grouping of the 3 signals in the detector by means of the algorithm actually groups information that may correspond to the same particle event. In other words, it works :)
+
+
+
+
+

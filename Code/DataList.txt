@@ -1,0 +1,10 @@
+/storage/gpfs_data/icarus/local/users/marterop/sbnana_v09_78_06/new_24/concat_newDATA/concat_dl1.root
+/storage/gpfs_data/icarus/local/users/marterop/sbnana_v09_78_06/new_24/concat_newDATA/concat_dl2.root 
+/storage/gpfs_data/icarus/local/users/marterop/sbnana_v09_78_06/new_24/concat_newDATA/concat_dl3.root 
+/storage/gpfs_data/icarus/local/users/marterop/sbnana_v09_78_06/new_24/concat_newDATA/concat_dl4.root 
+/storage/gpfs_data/icarus/local/users/marterop/sbnana_v09_78_06/new_24/concat_newDATA/concat_dl5.root 
+/storage/gpfs_data/icarus/local/users/marterop/sbnana_v09_78_06/new_24/concat_newDATA/concat_dl6.root 
+/storage/gpfs_data/icarus/local/users/marterop/sbnana_v09_78_06/new_24/concat_newDATA/concat_dl7.root 
+/storage/gpfs_data/icarus/local/users/marterop/sbnana_v09_78_06/new_24/concat_newDATA/concat_dl8.root 
+/storage/gpfs_data/icarus/local/users/marterop/sbnana_v09_78_06/new_24/concat_newDATA/concat_dl9.root
+/storage/gpfs_data/icarus/local/users/marterop/sbnana_v09_78_06/new_24/concat_newDATA/concat_dl1X.root 

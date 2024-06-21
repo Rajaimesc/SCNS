@@ -55,6 +55,6 @@ Additionaly from the ROOT tree a comparison between the distance between the pro
 <img src="CRTdistances.png" width="500" class="center"/>
 </center>
 The graph shows that the PCA performs better in projecting th track, due to the fact that it takes all the points that make part of the tracks instead of the initial or end ones, as the pandora reoncstruction algorithm of ICARUS does, being more sensitive to multiple scattering. Is also worth noting that the peak
-is not around 0 but around 20 cms, which also is in agreement with the offset on the detector. So again, the algorithm does good.
+is not around 0 but around 20 cms, which also is in agreement with the offset on the detector. So again, the algorithm does good. The increase on the number of events for distances bigger than 1.5 meters gives a possible indicator on where to define a manual cut betweet correctly prjected and random projected tracks too
 
 

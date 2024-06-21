@@ -9,7 +9,7 @@ First time you set up a new version of sbnana (if allowed to gpfs_data, and mayb
 3. export  MRB_PROJECT=sbnana
 4. source  /storage/gpfs_data/icarus/local/users/USERNAME/sbnana_v09_78_06/localProducts_sbnana_v09_78_06_e20_prof/setup (Here if you have access to an icarus folder,in any case i can pass and run it(?))
 5. cd /storage/gpfs_data/icarus/local/users/USERNAME/sbnana_v09_78_06/srcs/
-6. And here you can push this repo and do  cafe SCTripleMatch.C, the ouput is somethin like
+6. And here you can push this repo and do  cafe SCTripleMatch.C, the ouput is something like
 7.  <center>
 <img src="cafanaprompt.png" width="600" class="center"/>
 </center>

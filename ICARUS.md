@@ -50,7 +50,11 @@ The spectrum  takes the distance between the light and charge barycenters inside
 </center>
 From this plot we can see that the shorter the distance between the barycenters the more precise is also the projection on the CRT plane, indicating that the grouping of the 3 signals in the detector by means of the algorithm actually groups information that may correspond to the same particle event. In other words, it works :)
 
-
-
+Additionaly from the ROOT tree a comparison between the distance between the projected hit onto the CRT and the actual CRT hit for the pandora reconstruction and the PCA is done and shown here in the next figure 
+<center>
+<img src="CRTdistances.png" width="500" class="center"/>
+</center>
+The graph shows that the PCA performs better in projecting th track, due to the fact that it takes all the points that make part of the tracks instead of the initial or end ones, as the pandora reoncstruction algorithm of ICARUS does, being more sensitive to multiple scattering. Is also worth noting that the peak
+is not around 0 but around 20 cms, which also is in agreement with the offset on the detector. So again, the algorithm does good.
 
 

@@ -17,4 +17,3 @@ First time you set up a new version of sbnana (if allowed to gpfs_data, and mayb
 <img src="cafanaprompt.png" width="600" class="center"/>
 </center>
 
-
